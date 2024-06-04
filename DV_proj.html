@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple D3.js Dashboard</title>
+    <link rel="stylesheet" href="DV_style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Dashboard</h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="#">Overview</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section class="card">
+                <h2>Sales Data</h2>
+                <div id="salesChart"></div>
+            </section>
+            <section class="card">
+                <h2>Visitor Data</h2>
+                <div id="visitorChart"></div>
+            </section>
+        </main>
+    </div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="DV_script.js"></script>
+</body>
+</html>
